@@ -33,6 +33,11 @@ REFERENCES
 7.      Create remote repository
 8.      show change dopne in showcart.php file
 9.      again made change
-10.     
-
+10.     showcart php difference show between changes branches
+11.     freezed code
+12.     check difference betweeb both branchhes
+13.     switch to Showcart file and agian made change
+14.     merege with main development in master branch
+15.     stash file
+16.     publish on GitHub
 
