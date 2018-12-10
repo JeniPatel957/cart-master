@@ -31,5 +31,8 @@ REFERENCES
 5.	Run the project on the browser (tested on chrome, firefox).
 6.      Apply appropriate validation and freezed that
 7.      Create remote repository
+8.      show change dopne in showcart.php file
+9.      again made change
+10.     
 
 
