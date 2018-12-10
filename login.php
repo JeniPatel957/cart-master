@@ -4,6 +4,7 @@ require("connection.php");
 if(isset($_SESSION['SESS_LOGGEDIN'])) {
 header("Location: " . $config_basedir);
 }
+ echo "New content form kevinpatel038@gmail.com side";
 
 if(isset($_POST['submit']))
 {
