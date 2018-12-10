@@ -1,5 +1,9 @@
 <?php
 	session_start();
+        if($_SESSION=="")
+        {
+            echo 'SEssion is expire';
+        }
 	require("connection.php");
 	require("header.php");
 	require("functions.php");
@@ -31,34 +35,26 @@
         background: #036d4d;
         size: 10px;
     }
-<<<<<<< OURS
-    </style>
-    <form>
-        <table>
-            <tr id="na">
-                <td>Name:
-                </td>
-                <td><input type="text" name="txtname"></td>
-            </tr>
-            <tr id="na">
-                <td>Quantity</td>
-                <td><input type="number" name="txtnumbe"></td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" name="sub" value="submit">
-                </td>
-            </tr>
-        </table>
-    </form>
-=======
-    .des{
+
+      .des{
         background: #dddddd;
         font-family: serif;
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        alignment-adjust: auto;
     }
-</style>
+    </style>
 <form action="" method="post">
-    <table>
+    <table border="0">
+         <tr>
+            <td>
+                Image:
+            </td>
+            <td>
+                <input type="file" name="txtfile">
+            </td>
+        </tr>
         <tr>
             <td>
                 ProductName:
@@ -92,4 +88,3 @@
         
     </table>
 </form>
->>>>>>> THEIRS
