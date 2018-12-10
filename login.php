@@ -4,6 +4,7 @@ require("connection.php");
 if(isset($_SESSION['SESS_LOGGEDIN'])) {
 header("Location: " . $config_basedir);
 }
+ echo "New content form kevinpatel038@gmail.com side";
 
 if(isset($_POST['submit']))
 {
@@ -50,7 +51,7 @@ echo "<strong>Incorrect username/password</strong>";
 </tr>
 <tr>
 <td>Password</td>
-<td><input type="password" name="passBox">
+<td><input type="password" name="passBox" max="16" min="6">
 </tr>
 <tr>
 <td></td>
